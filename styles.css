@@ -49,7 +49,9 @@ section .title::after{
 }
 
 @media (max-width: 600px) {
+    body {
     font-size: 1rem;
+    }    
 }
 
 /* End of Section */
@@ -225,7 +227,7 @@ section .title::after{
 }
 
 @media (max-width: 600px) {
-    .Portfolio {
+    .gallery {
         display: inline-block;
     }
 }
