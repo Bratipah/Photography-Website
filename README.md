@@ -6,7 +6,7 @@
 ## Description
 This is a website that showcases a photography studio market where users can check out their photos and rach out to us for any upcoming events or shoots.
 ## Design and Wireframe
-![Image description]() ![Image description]()
+![Image description](https://github.com/Bratipah/Photography-Website/blob/bratipah/images/Screenshot%20at%202021-07-31%2001-58-29.png) ![Image description](https://github.com/Bratipah/Photography-Website/blob/bratipah/images/Screenshot%20at%202021-07-31%2002-07-13.png)
 ## Project Landing Page
 ![Image description](https://github.com/Bratipah/Photography-Website/blob/bratipah/images/Screenshot%20at%202021-07-31%2001-22-06.png) 
 ## Setup/Installation Requirements
