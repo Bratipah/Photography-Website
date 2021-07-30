@@ -47,6 +47,11 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
+
+@media (max-width: 600px) {
+    font-size: 1rem;
+}
+
 /* End of Section */
 
 
