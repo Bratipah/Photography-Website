@@ -92,6 +92,9 @@ section .title::after{
   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(29, 226, 193);
   }
+  .nav-item a:hover{
+      color: rgb(29, 226, 193) ;
+  }
 /* Navbar end */
 
 
