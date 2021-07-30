@@ -223,6 +223,12 @@ section .title::after{
 .portfolio .portfolio-content .column{
     width: calc(50% - 30px);
 }
+
+@media (max-width: 600px) {
+    .Portfolio {
+        display: inline-block;
+    }
+}
 /* End ofPortfolio */
 /* Gallery */
 .gallery{
