@@ -98,7 +98,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://picturecorrect-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/home-studio-setup-tips-2.jpg") no-repeat center;
+    background: url("https://wallpaperaccess.com/full/161427.jpg");
     height: 100vh;
     color: rgb(10, 10, 10);
     min-height: 500px;
@@ -151,6 +151,12 @@ section .title::after{
 /* Home content */
 
 /* about section styling */
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
 .about .title::after{
     content: "who i am";
 }
@@ -204,7 +210,7 @@ section .title::after{
     justify-content: space-between;
 }
 .portfolio .title::after{
-    content: "Our past photography images";
+    content:"Our past photography images";
 }
 .portfolio .portfolio-content .column{
     width: calc(50% - 30px);
