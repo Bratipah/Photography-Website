@@ -4,7 +4,7 @@
  * Ben quriel
  * Bratipah Kioko
 ## Description
-This is a website that showcases a photography studio market where users can check out their photos and rach out to us for any upcoming events or shoots.
+This is a website that showcases a photography studio market where users can check out their photos and reach out to us for any upcoming events or shoots.
 ## Figma Design 
 ![Image description](https://github.com/Bratipah/Photography-Website/blob/bratipah/images/Screenshot%20at%202021-07-31%2001-58-29.png)
 
@@ -33,4 +33,4 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 For enquiries and contribution to our project, kindly reach out through E-mail: "bratipahmh@gmail.com"
 ### License
 * MIT Licence.
-* Copyright (c) {2020} [LICENSE](https://github.com/Bratipah/Photography-Website/blob/bratipah/LICENSE.md) © [Bratipah Kioko ](https://github.com/bratipah)
+* Copyright (c) {2021} [LICENSE](https://github.com/Bratipah/Photography-Website/blob/bratipah/LICENSE.md) © [Bratipah Kioko ](https://github.com/bratipah)
