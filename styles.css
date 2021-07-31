@@ -275,12 +275,6 @@ section .title::after{
     width: calc(50% - 30px);
 }
 
-@media (max-width: 600px) {
-    .gallery {
-        display: inline-block;
-    }
-}
-
 /* End ofPortfolio */
 /* Gallery */
 .gallery{
@@ -318,8 +312,7 @@ section .title::after{
     100%{
       transform: scale(1);
     }
-}
-
+ }
 
 @media (max-width: 600px) {
     .gallery {
@@ -335,9 +328,7 @@ section .title::after{
         height: 12em;
         display: inline;
         transition: all 0.3s ease;
-    }
-        
-    
+    }       
 }
 
 /* end of Gallery */
