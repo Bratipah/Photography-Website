@@ -116,6 +116,35 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
+
+@media (max-width: 600px) {
+  .typing {
+      font-size: 22px;
+    }
+    
+    .home {
+        margin-bottom: 40px;
+        height: max-content;
+        
+    }
+
+    .home .home-content .text-1{
+        font-size: 10px;
+        color: #fff;
+    }
+    .home .home-content .text-2{
+        font-size: 10px;
+        font-weight: 400;
+        
+       
+    }
+    .text-3 {
+        font-size: 10px;
+        margin: 5px 0;
+        color: #fff;
+    }
+ }
+
 .home .max-width{
   width: 100%;
   display: flex;
@@ -167,6 +196,26 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
 }
+
+@media (max-width: 600px) {
+    .about .about-content {
+        font-size: 12px;
+        margin-top: 40px;
+        display: inline-block;
+    
+        align-items: center;
+        justify-content: space-between;
+    }
+    .about .about-content .left img{
+        height: 300px;
+        width: 200px;
+    }
+    .max-width {
+        padding-bottom: 300px;
+    }
+        
+}
+
 .about .title::after{
     content: "who are we";
 }
@@ -231,6 +280,7 @@ section .title::after{
         display: inline-block;
     }
 }
+
 /* End ofPortfolio */
 /* Gallery */
 .gallery{
@@ -269,6 +319,29 @@ section .title::after{
       transform: scale(1);
     }
 }
+
+
+@media (max-width: 600px) {
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        column-count: auto; 
+        margin-top: 3em;
+        
+        
+    }
+
+    .gallery .image img{
+        
+        width: 100%;
+        height: 12em;
+        display: inline;
+        transition: all 0.3s ease;
+    }
+        
+    
+}
+
 /* end of Gallery */
 
 
@@ -279,6 +352,17 @@ section .title::after{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+
+    .contact .contact-content {
+        display: inline-block;
+        justify-content: space-around;
+        text-align: center;
+        width: fit-content;
+        
+    }
 }
 
 .contact .title::after{
