@@ -65,6 +65,19 @@ section .title::after{
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+  
+@media (max-width: 600px) {
+    .container {
+        font-size: .9rem;
+    }
+    .website {
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
   
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: rgb(29, 226, 193);
@@ -105,10 +118,10 @@ section .title::after{
 /* Navbar end */
 
 
-/* home section styling */
+/* home section styling  https://wallpaperaccess.com/full/161427.jpg*/
 .home{
     display: flex;
-    background: url("https://images.pexels.com/photos/1447264/pexels-photo-1447264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background: url("https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBob3RvJTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
     height: 100vh;
     color: rgb(10, 10, 10);
     min-height: 500px;
@@ -157,13 +170,13 @@ section .title::after{
     color: #fff;
 }
 .home .home-content .text-2{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 400;
     margin-left: -3px;
     color: #fff;
 }
 .home .home-content .text-3{
-    font-size: 40px;
+    font-size: 30px;
     margin: 5px 0;
     color: #fff;
 }
@@ -211,13 +224,17 @@ section .title::after{
         width: 200px;
     }
     .max-width {
-        padding-bottom: 300px;
+        padding-bottom: 30px;
     }
+     .about .title::after{
+      margin-top: 300px;
+     }
         
 }
 
 .about .title::after{
     content: "who are we";
+    margin-top: 300px;
 }
 .about .about-content .left{
     width: 45%;
@@ -270,9 +287,16 @@ section .title::after{
 }
 .portfolio .title::after{
     content:"Our past photography images";
+    margin-bottom: 90px;
 }
 .portfolio .portfolio-content .column{
     width: calc(50% - 30px);
+}
+
+@media (max-width: 600px) {
+    .gallery {
+        display: inline-block;
+    }
 }
 
 /* End ofPortfolio */
@@ -349,12 +373,14 @@ section .title::after{
         display: inline-block;
         justify-content: space-around;
         text-align: center;
-        width: fit-content;   
+        width: fit-content; 
+        font-size: .6rem;
     }
 }
 
 .contact .title::after{
     content: "get in touch";
+    margin-bottom: 80px;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
