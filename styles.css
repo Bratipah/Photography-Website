@@ -97,6 +97,8 @@ section .title::after{
   
   .nav-link {
     padding: .2rem 1rem;
+      background-color: white;
+      border-radius: 6%
   }
   
   .nav-link.active,.nav-link:focus{
@@ -234,7 +236,7 @@ section .title::after{
 
 .about .title::after{
     content: "who are we";
-    margin-top: 300px;
+    margin-bottom: 20px;
 }
 .about .about-content .left{
     width: 45%;
@@ -380,7 +382,7 @@ section .title::after{
 
 .contact .title::after{
     content: "get in touch";
-    margin-bottom: 80px;
+    margin-bottom: 12px;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
