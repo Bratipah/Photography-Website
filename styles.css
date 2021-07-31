@@ -105,10 +105,10 @@ section .title::after{
 /* Navbar end */
 
 
-/* home section styling  https://wallpaperaccess.com/full/161427.jpg*/
+/* home section styling */
 .home{
     display: flex;
-    background: url("https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBob3RvJTIwc3R1ZGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background: url("https://images.pexels.com/photos/1447264/pexels-photo-1447264.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     height: 100vh;
     color: rgb(10, 10, 10);
     min-height: 500px;
