@@ -120,7 +120,7 @@ section .title::after{
 @media (max-width: 600px) {
   .typing {
       font-size: 22px;
-    }
+  }
     
     .home {
         margin-bottom: 40px;
@@ -326,9 +326,7 @@ section .title::after{
         display: flex;
         flex-direction: column;
         column-count: auto; 
-        margin-top: 3em;
-        
-        
+        margin-top: 3em;  
     }
 
     .gallery .image img{
@@ -355,13 +353,11 @@ section .title::after{
 }
 
 @media (max-width: 600px) {
-
     .contact .contact-content {
         display: inline-block;
         justify-content: space-around;
         text-align: center;
-        width: fit-content;
-        
+        width: fit-content;   
     }
 }
 
