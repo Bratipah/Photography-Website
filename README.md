@@ -11,7 +11,7 @@ This is a website that showcases a photography studio market where users can che
 ## Wireframe
  ![Image description](https://github.com/Bratipah/Photography-Website/blob/bratipah/images/Screenshot%20at%202021-07-31%2002-07-13.png)
 ## Project Landing Page
-![Image description](https://github.com/Bratipah/Photography-Website/blob/bratipah/images/Screenshot%20at%202021-07-31%2002-36-20.png) 
+![Image description](https://github.com/Bratipah/Photography-Website/blob/bratipah/images/Screenshot%20at%202021-07-31%2005-46-22.png) 
 ## Setup/Installation Requirements
 * Open your terminal in pc and create a folder.
 * Clone this repository into the folder using the command line below,
